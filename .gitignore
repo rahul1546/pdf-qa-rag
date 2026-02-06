@@ -1,0 +1,11 @@
+# env files
+.env
+.env.local
+.env.*.local
+
+# python cache
+__pycache__/
+*.pyc
+
+# local app data (generated)
+backend/data/
