@@ -29,7 +29,7 @@ PDF QA — Retrieval-Augmented Generation (RAG)
     
     The goal was to translate research concepts into a usable product, not just a backend pipeline.
 
-> Features:
+- Features:
     - Upload PDFs with automatic:
         - Text extraction
         - Chunking with overlap
