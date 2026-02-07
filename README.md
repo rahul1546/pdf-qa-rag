@@ -42,7 +42,7 @@ PDF QA — Retrieval-Augmented Generation (RAG)
     - Modern dark UI - (ChatGPT-inspired)
     - Persistent document state and chat history
 
-> System Architecture (High-Level):
+- System Architecture (High-Level):
     - PDF Ingestion
         Text extracted with page mapping
     - Chunking
@@ -57,7 +57,7 @@ PDF QA — Retrieval-Augmented Generation (RAG)
         - Citations map answers back to exact PDF pages
         - Highlight rectangles are computed from matched text
 
-> UI Overview:
+- UI Overview:
     - Left Panel
         - Document list
         - Indexing status
@@ -71,14 +71,14 @@ PDF QA — Retrieval-Augmented Generation (RAG)
         - Automatic page navigation
         - Visual highlights of referenced text
 
-> Example Use Cases:
+- Example Use Cases:
     - Research paper analysis
     - Legal or policy documents
     - Academic study material
     - Business reports
     - Long PDFs where keyword search is insufficient
 
-> Tech Stack:
+- Tech Stack:
     - Frontend
         - Next.js (App Router)
         - React + TypeScript
@@ -94,20 +94,20 @@ PDF QA — Retrieval-Augmented Generation (RAG)
         - RAG-style answer generation
         - Text-to-coordinate highlighting
 
-> Setup:
+- Setup:
     npm install
     npm run dev
 
-> Create .env.local:
+- Create .env.local:
     NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 
-> Design Notes:
+- Design Notes:
     - Highlighting is text-based, not page-based, for precision
     - Citations are first-class UI elements, not metadata
     - Chat history is scoped per document
     - UI prioritizes reading flow over control-heavy layouts
 
-> Future Improvements:
+- Future Improvements:
     -  Streaming responses
     -  Export answers with citations
     -  Authentication and cloud storage
